@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0aecec</color>
+    <color name="colorPrimaryDark">#1ac9cf</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="orange">#dd6727</color>
+    <color name="teal">#1cdbd8</color>
+    <color name="blue">#05f1e5</color>
+    <color name="brown">#49c5ae</color>
+    <color name="grey">#296559</color>
+    <color name="white">#ffffffff</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="txt_black">#232323</color>
+    <color name="txt_gray">#565656</color>
+    <color name="txt_light_gray">#898989</color>
+
+    <color name="green">#58a525</color>
+    <color name="gray">#808080</color>
+    <color name="lightwhite">#fff</color>
+    <color name="red">#ff2121</color>
+    <dimen name="activity_margin">10dp</dimen>
+
+
+</resources>

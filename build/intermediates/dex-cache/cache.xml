@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_d65f0a008ab7aa655232e20327c4ebb6e28431af\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_bcb3ac48c3f486e06135ca89cd235a31b3d4ec57\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="84a5e720e441032fc979314a4539f3d40079801b">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.ashokvarma.android-bottom-navigation-bar-1.3.0_e0f0b0cb5f4adc4fcb6045514d27aabbeaa82b82\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_325e3e21cbd3d53192054ea2efdd8304e3b11f12\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_01e092ba7a34d854c2852872c052fc57661ebf24\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_ac6bc89bd4320c8e948fcd50c03924007c4078b9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_e21551cabcbda51c66c875744cfc9c51bea5620d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_6ee89c18fe9686e6c632c60d2867495d21197402\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_e31234c01bead2e93cae477a94e3723ff67fb855\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_15d8db2877e29eb81dd9f161904ce13e7b99824c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="01909916c89c2804deb2beef5eae9eccabd2929b">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_26d6815fa5ddb8c5e6af1c5a019bdf52b479aac4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\Project\One_Project\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="be6ebef54d0e2846d221f258b07190f0904dff61">
+        <dex dex="C:\Android\Project\One_Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_484b7adb4b31e144aea010395ed0505e38448d36\classes.dex" />
+    </item>
+
+</items>

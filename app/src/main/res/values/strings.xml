@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">葡萄圈</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_abouts">关于</string>
+    <string name="action_back">反馈</string>
+    <string name="hello">Hello</string>
+
+    <string name="button_login">登录</string>
+</resources>
