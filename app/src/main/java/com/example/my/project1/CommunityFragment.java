@@ -24,8 +24,18 @@ public class CommunityFragment extends Fragment {
     private String[] descs = new String[]
             { "1", "2", "3", "4","5","6","7","8","9","10","11"};
     private int[] imageIds = new int[]
-            { R.drawable.a, R.drawable.b, R.drawable.c , R.drawable.d,R.drawable.e,R.drawable.f,
-                    R.drawable.g,R.drawable.j,R.drawable.hy,R.drawable.zx,R.drawable.sy,
+            {
+                    R.drawable.a,
+                    R.drawable.b,
+                    R.drawable.c ,
+                    R.drawable.d,
+                    R.drawable.e,
+                    R.drawable.f,
+                    R.drawable.g,
+                    R.drawable.j,
+                    R.drawable.hy,
+                    R.drawable.zx,
+                    R.drawable.sy,
                     };
 
     @Nullable
