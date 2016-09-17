@@ -30,12 +30,14 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="汕大葡萄圈"
+        android:textColor="#98c2e9"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="分享生活，分享快乐" />
+        android:text="分享生活，分享快乐"
+        android:textColor="#98c2e9"/>
 
 </LinearLayout>

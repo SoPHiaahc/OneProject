@@ -1,14 +1,17 @@
 package com.example.my.project1;
 
+import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+
+import com.example.my.project1.activity_for_community.Activity1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,12 +20,23 @@ import java.util.Map;
 
 public class CommunityFragment extends Fragment {
 
-
-
     private String[] names = new String[]
-            { "A座", "B座", "C座", "D座","E座","F座","G座","至诚书院","弘毅书院","知行书院","思源书院"};
+            {       "A座",
+                    "B座",
+                    "C座",
+                    "D座",
+                    "E座",
+                    "F座",
+                    "G座",
+                    "至诚书院",
+                    "弘毅书院",
+                    "知行书院",
+                    "思源书院",
+                    "研究生宿舍",
+                    "教师公寓"
+            };
     private String[] descs = new String[]
-            { "1", "2", "3", "4","5","6","7","8","9","10","11"};
+            { "1", "2", "3", "4","5","6","7","8","9","10","11","12","13"};
     private int[] imageIds = new int[]
             {
                     R.drawable.a,
@@ -36,7 +50,9 @@ public class CommunityFragment extends Fragment {
                     R.drawable.hy,
                     R.drawable.zx,
                     R.drawable.sy,
-                    };
+                    R.drawable.yjs,
+                    R.drawable.js,
+            };
 
     @Nullable
     @Override
@@ -71,8 +87,31 @@ public class CommunityFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id)
             {
-                System.out.println(names[position]
-                        + "被单击了");
+                switch (position){
+                    case 0:
+                        startActivity(new Intent(getActivity(), Activity1.class));
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    case 5:
+                        break;
+                    case 6:
+                        break;
+                    case 7:
+                        break;
+                    case 8:
+                        break;
+                    case 9:
+                        break;
+                    case 10:
+                        break;
+                }
             }
         });
         // 为ListView的列表项的选中事件绑定事件监听器
@@ -91,13 +130,8 @@ public class CommunityFragment extends Fragment {
             {
             }
         });
-
-
         return view;
     }
-
-
-
     public static CommunityFragment newInstance(String content) {
         Bundle args = new Bundle();
         args.putString("ARGS", content);
@@ -105,6 +139,4 @@ public class CommunityFragment extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
-
 }

@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:text="宿舍"
-    android:textSize="20dp"
-    android:background="#deb3b3"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="宿舍"
+        android:textSize="20dp"
+        android:textColor="#6b99e2"
+        android:background="#c3f8eb"/>
     定义一个ListView
     <ListView android:id="@+id/mylist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:divider="#a6e3ee"
+        android:divider="#e5e8f1"
         android:dividerHeight="2dp"/>
 
 </LinearLayout>

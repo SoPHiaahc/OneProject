@@ -33,6 +33,10 @@ package="com.example.my.project1">
         </intent-filter>
 
     </activity>
+    <activity android:name=".activity_for_community.Activity1"
+        android:theme="@style/AppTheme.NoActionBar">
+
+    </activity>
 </application>
 
 </manifest>
