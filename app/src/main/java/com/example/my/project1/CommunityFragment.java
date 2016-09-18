@@ -56,7 +56,8 @@ public class CommunityFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_community, container, false);
 
         // 创建一个List集合，List集合的元素是Map
@@ -79,9 +80,14 @@ public class CommunityFragment extends Fragment {
         // 为ListView设置Adapter
         list.setAdapter(simpleAdapter);
 
+
+
+
         // 为ListView的列表项的单击事件绑定事件监听器
         list.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
+            final Intent intent = new Intent(getActivity(), Activity1.class);
+            Bundle data = new Bundle();
             // 第position项被单击时激发该方法
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
@@ -89,28 +95,71 @@ public class CommunityFragment extends Fragment {
             {
                 switch (position){
                     case 0:
-                        startActivity(new Intent(getActivity(), Activity1.class));
+                        data.putInt("Num",1);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 1:
+                        data.putInt("Num",2);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 2:
+                        data.putInt("Num",3);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 3:
+                        data.putInt("Num",4);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 4:
+                        data.putInt("Num",5);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 5:
+                        data.putInt("Num",6);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 6:
+                        data.putInt("Num",7);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 7:
+                        data.putInt("Num",8);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 8:
+                        data.putInt("Num",9);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 9:
+                        data.putInt("Num",10);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
                     case 10:
+                        data.putInt("Num",11);
+                        intent.putExtras(data);
+                        startActivity(intent);
                         break;
+                    case 11:
+                        data.putInt("Num",12);
+                        intent.putExtras(data);
+                        startActivity(intent);
+                        break;
+                    case 12:
+                        data.putInt("Num",13);
+                        intent.putExtras(data);
+                        startActivity(intent);
+                        break;
+
                 }
             }
         });
