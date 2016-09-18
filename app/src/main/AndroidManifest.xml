@@ -37,6 +37,10 @@ package="com.example.my.project1">
         android:theme="@style/AppTheme.NoActionBar">
 
     </activity>
+    <activity android:name=".BuGaoLan_Activity"
+        android:theme="@style/AppTheme.NoActionBar">
+
+    </activity>
 </application>
 
 </manifest>
