@@ -41,6 +41,10 @@ package="com.example.my.project1">
         android:theme="@style/AppTheme.NoActionBar">
 
     </activity>
+    <activity android:name=".MyUserInfoActivity"
+        android:theme="@style/AppTheme">
+
+    </activity>
 </application>
 
 </manifest>
