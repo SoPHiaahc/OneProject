@@ -23,5 +23,14 @@
     <color name="red">#ff2121</color>
     <dimen name="activity_margin">10dp</dimen>
 
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
 
 </resources>

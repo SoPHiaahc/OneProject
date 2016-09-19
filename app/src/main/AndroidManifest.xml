@@ -45,6 +45,10 @@ package="com.example.my.project1">
         android:theme="@style/AppTheme">
 
     </activity>
+    <activity android:name=".Setting_Activity"
+        android:theme="@style/AppTheme">
+
+    </activity>
 </application>
 
 </manifest>

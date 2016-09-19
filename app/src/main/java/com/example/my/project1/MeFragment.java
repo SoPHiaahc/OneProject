@@ -41,6 +41,14 @@ public class MeFragment extends Fragment {
                 startActivityForResult(intent, SHOW_MAP_DEPOT);
             }
         });
+
+        RelativeLayout myLayout3 = (RelativeLayout) view.findViewById(R.id.re_setting);
+        myLayout3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Setting_Activity.class));
+            }
+        });
         return view;
     }
     public static MeFragment newInstance(String content) {

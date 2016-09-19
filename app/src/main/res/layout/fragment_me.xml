@@ -130,7 +130,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             android:layout_toRightOf="@id/iv_shoucang"
-            android:text="好友"
+            android:text="通讯录"
             android:textColor="#353535"
             android:textSize="16sp" />
     </RelativeLayout>
