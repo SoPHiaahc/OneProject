@@ -40,14 +40,14 @@
         jar="C:\Android\Project\OneProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="270579a4e2bc046052f08f26e4588be5db732149">
+        sha1="0126b2267c813882054dd6c5d816c51e1c8da018">
         <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c1331ba5a74df087a0d5cfa8e1edd85ce08c9f8e\classes.dex" />
     </item>
     <item
         jar="C:\Android\Project\OneProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="f3a77320547ad911fe88df59688a2011953989e5">
+        sha1="38c7e384adfb4e5115fec7fc90c7086786fe6a43">
         <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f7f41d55f9b777d0f8cb60ace91b08492731cab4\classes.dex" />
     </item>
     <item
