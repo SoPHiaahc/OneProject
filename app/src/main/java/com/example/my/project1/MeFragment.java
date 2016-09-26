@@ -9,22 +9,30 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class MeFragment extends Fragment {
     @Nullable
+
+    TextView textView1;
 
     //手机图库请求码
     public static final int SHOW_MAP_DEPOT = 1;
 
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_me, container, false);
         RelativeLayout myLayout1 = (RelativeLayout) view.findViewById(R.id.re_myinfo);
+        textView1= (TextView) view.findViewById(R.id.tv_name_of_fragment_me);
+
         myLayout1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(),MyUserInfoActivity.class));
+                Intent intent1=new Intent(getActivity(),MyUserInfoActivity.class);
+                startActivityForResult(intent1,1);
             }
         });
+
 
         RelativeLayout myLayout2 = (RelativeLayout) view.findViewById(R.id.re_xiangce);
         myLayout2.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +67,12 @@ public class MeFragment extends Fragment {
         return fragment;
     }
 
-
-
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        if(requestCode==0 && resultCode==0){
+            Bundle data = intent.getExtras();
+            String resultOfName=data.getString("Name");
+            textView1.setText(resultOfName);
+        }
+    }
 }
