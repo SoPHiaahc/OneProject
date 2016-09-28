@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -45,7 +46,21 @@ public class MyUserInfoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_myinfo);
+        setContentView(R.layout.layout_myinfo_main);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar4);
+        toolbar.setTitle("个人信息");
+        setSupportActionBar(toolbar);
+        toolbar.setNavigationIcon(R.drawable.back_button);//设置导航栏图标
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                Intent intent = getIntent();
+//                intent.putExtra("Name",name);
+//                MyUserInfoActivity.this.setResult(1,intent);
+                finish();
+            }
+        });
 
         preferences = getSharedPreferences("yan",MODE_PRIVATE);
         editor=preferences.edit();
@@ -123,6 +138,8 @@ public class MyUserInfoActivity extends AppCompatActivity {
                 dialog3();
             }
         });
+
+
 
     }
 
@@ -215,5 +232,6 @@ public class MyUserInfoActivity extends AppCompatActivity {
                 });
         builder.create().show();
     }
+
 
 }
