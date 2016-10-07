@@ -8,11 +8,6 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-/**
- * Created by yan on 2016/10/7.
- */
-
-
 public class PushPostActivity extends AppCompatActivity {
 
     private final static String[] TYPE_ARRAY = new String[]{"普通动态", "网站/推文等"};
