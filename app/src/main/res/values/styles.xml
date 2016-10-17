@@ -59,4 +59,13 @@
         <item name="android:textSize">@dimen/txtsize_caption</item>
     </style>
 
+    <style name="actionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="actionBarSize">@dimen/actionBarSize</item>
+    </style>
+    <style name="customTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFA500</item>//标题栏背景色
+        <item name="colorPrimaryDark">#CCa500</item>
+    </style>
+
 </resources>

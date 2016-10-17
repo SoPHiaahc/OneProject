@@ -35,6 +35,7 @@ public class BuGaoLan_Activity extends AppCompatActivity{
         WebView myWebView = (WebView) findViewById(R.id.my_webview);
         WebSettings settings = myWebView.getSettings();
         settings.setJavaScriptEnabled(true);
+        myWebView.canGoBack();
         //WebView加载web资源
         myWebView.loadUrl("http://notes.stu.edu.cn/login/Login.jsp?logintype=1");
         //覆盖WebView默认使用第三方或系统默认浏览器打开网页的行为，使网页用WebView打开

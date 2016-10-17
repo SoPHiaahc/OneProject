@@ -40,5 +40,6 @@
     <dimen name="sp12">12sp</dimen>
     <dimen name="img_hight">90dp</dimen>
 
+    <dimen name="actionBarSize">32dip</dimen>
     <dimen name="height_top_bar">48dp</dimen>
 </resources>

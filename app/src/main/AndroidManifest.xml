@@ -3,9 +3,11 @@
 package="com.example.my.project1">
 
     <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
 
 <application
     android:allowBackup="true"
@@ -17,11 +19,6 @@ package="com.example.my.project1">
         android:name=".MainActivity"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar">
-        <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
-
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-        <!--</intent-filter>-->
     </activity>
     <activity
         android:name=".LoginActivity"
@@ -53,6 +50,24 @@ package="com.example.my.project1">
     <activity android:name=".PushPostActivity"
         android:theme="@style/AppTheme">
     </activity>
+
+    <activity android:name="me.iwf.photopicker.PhotoPickerActivity"
+        android:theme="@style/actionBarTheme"
+        />
+
+    <activity android:name="me.iwf.photopicker.PhotoPagerActivity"
+        android:theme="@style/actionBarTheme"/>
+
+    <activity
+        android:name="cn.finalteam.rxgalleryfinal.ui.activity.MediaActivity"
+        android:screenOrientation="portrait"
+        android:exported="true"
+        android:theme="@style/Theme_Light.Blue"/>
+    <activity
+        android:name="com.yalantis.ucrop.UCropActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme_Light.Blue"/>
+
 </application>
 
 </manifest>

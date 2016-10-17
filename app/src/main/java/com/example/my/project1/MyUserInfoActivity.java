@@ -14,6 +14,13 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
+import cn.finalteam.rxgalleryfinal.RxGalleryFinal;
+import cn.finalteam.rxgalleryfinal.imageloader.ImageLoaderType;
+import cn.finalteam.rxgalleryfinal.rxbus.RxBusResultSubscriber;
+import cn.finalteam.rxgalleryfinal.rxbus.event.ImageRadioResultEvent;
+
 
 public class MyUserInfoActivity extends AppCompatActivity {
 
@@ -43,6 +50,13 @@ public class MyUserInfoActivity extends AppCompatActivity {
 
 
 
+    private ArrayList<String> selectedPhotos = new ArrayList<>();
+
+
+    public final static int REQUEST_CODE = 1;
+
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,9 +69,6 @@ public class MyUserInfoActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = getIntent();
-//                intent.putExtra("Name",name);
-//                MyUserInfoActivity.this.setResult(1,intent);
                 finish();
             }
         });
@@ -111,6 +122,25 @@ public class MyUserInfoActivity extends AppCompatActivity {
         tv_region.setText(preferences.getString("region1",null));
         tv_sign.setText(preferences.getString("sign1",null));
 
+        re_avatar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RxGalleryFinal
+                        .with(MyUserInfoActivity.this)
+                        .image()
+                        .radio()
+                        .crop()
+                        .imageLoader(ImageLoaderType.GLIDE)
+                        .subscribe(new RxBusResultSubscriber<ImageRadioResultEvent>() {
+                            @Override
+                            protected void onEvent(ImageRadioResultEvent imageRadioResultEvent) throws Exception {
+
+                            }
+                        })
+                        .openGallery();
+            }
+        });
+
         re_name.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -139,9 +169,8 @@ public class MyUserInfoActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
+
 
 
     protected void dialog() {
@@ -232,6 +261,8 @@ public class MyUserInfoActivity extends AppCompatActivity {
                 });
         builder.create().show();
     }
-
-
 }
+
+
+
+

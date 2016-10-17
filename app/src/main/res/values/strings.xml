@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">葡萄圈</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">设置</string>
     <string name="action_abouts">关于</string>
     <string name="action_back">反馈</string>
@@ -11,13 +8,14 @@
 
     <string name="button_login">登录</string>
     <string name="button_logout">退出登录</string>
-    <string name="button_pushtotalk">按住说话</string>
+
     <string name="button_send">发送</string>
     <string name="attach_picture">图片</string>
     <string name="attach_take_pic">拍照</string>
-    <string name="attach_location">位置</string>
-    <string name="attach_file">文件</string>
-    <string name="attach_voice_call">语音电话</string>
-    <string name="attach_video_call">视频通话</string>
-    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+
+    <string name="pick_photo">选择图片</string>
+    <string name="pick_photo_without_camera">选择图片（不带拍照按钮且点击不预览图片）</string>
+    <string name="pick_one_photo">选择单张图片</string>
+    <string name="pick_photo_gif">选择gif图片</string>
+    <string name="multiple_pick_photo">多次进入PhotoPicker选择图片</string>
 </resources>

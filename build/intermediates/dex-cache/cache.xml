@@ -2,13 +2,247 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.3.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_2be78f1d66c7f97b752f8ae914f9a139ed3bcc65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_9e39f98bb961c405f8e5c9a86428b6e860d0213b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_9f0760dfaae5908b2cf172585790a7a71c10679b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.12.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c9a86e6bc8300fc00c191949ac61a2f7165e35c7">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-base-0.12.0_27cc6f056daa69e50d610100ae85e6d32a0a5624\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_db05cb6c2618a8c21f203391431ffdef346a0062\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_094a7b8411082f8fccc0d64ffae0b53eacbe6704\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0bdbb98c23f54653e08c41499db05e924be99748\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_4e9f4f1833389bd7e9a36a81c364c0308644f01f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9582f449dfa2fdd2b5d8a36fed1ad76177dc756d">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f7f41d55f9b777d0f8cb60ace91b08492731cab4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
         sha1="84a5e720e441032fc979314a4539f3d40079801b">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\com.ashokvarma.android-bottom-navigation-bar-1.3.0_ae0a9c22c6f1cd63048b5a0b180e1a644ad465e1.jar" />
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.ashokvarma.android-bottom-navigation-bar-1.3.0_ae0a9c22c6f1cd63048b5a0b180e1a644ad465e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_96316f1d039a32a925869fe3e9d4cbb1eb07dd27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_94c9bb24f978a21b5edfe5b0e1be1fff1d10ce5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_15d8db2877e29eb81dd9f161904ce13e7b99824c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_579e7b88a3729182cb758971a92a49e8237a2f88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_cca057a4034fbe70e2c477ad0fc1a85e51cf142a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.2.1_6c4de5c10e5d7b712a1bdbcfb199f7be6c0a9e45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\me.iwf.photopicker\PhotoPicker\0.8.11\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4252010c66975803587f56f001de967a33ff0b3c">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.iwf.photopicker-PhotoPicker-0.8.11_b0a1fed51651c3db5c2985fefdbc104a717eb2d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_350a6f57d0789a3db6df997d23ef7c1ce407423f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_2150eff3a21ea818bedcfa34f1e6b77bb1c6d0ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.9\e4362e62f1ba92e360b197d6d7ffae67e5ecae9a\rxjava-1.1.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e4362e62f1ba92e360b197d6d7ffae67e5ecae9a">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.9_01fff18515c844fcfd5a0eb69f6374de8e7ffb44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_9f0760dfaae5908b2cf172585790a7a71c10679b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b2df168e01f4f39090a8839515255bb83ca18417">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c1331ba5a74df087a0d5cfa8e1edd85ce08c9f8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_601c96113e3a3f20fa1b72cc4fbed1c1af736cbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.12.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fbcore-0.12.0_50207ec5435a246c1c21cc8afcd00b130c60634e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_cc78f0df9d6855c6f6208e953c06f280eccd2588\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_46f6559854d0415d171809f32716b38b66a9f528\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3320151b1e4a181a346544f71dfcbee41e05578">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f7f41d55f9b777d0f8cb60ace91b08492731cab4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,84 +255,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\cn.finalteam.rxgalleryfinal\library\0.0.3\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_f71197e9a232200ef597c1ca38f925a01d51b889\classes.dex" />
+        revision="24.0.2"
+        sha1="4b3d2f2fd9227b2fc1e5ec72ab168076821b1b47">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.finalteam.rxgalleryfinal-library-0.0.3_b6a7369df99b91e604b4d3f66cf5989189c5ea6c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.12.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_61dd3a9a55b706cf32fe663463a73c223bc2c555\classes.dex" />
+        revision="24.0.2"
+        sha1="a540784239c611ea490593e2053a5e2890675c68">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fresco-0.12.0_cc64f2a86db48262eec8b8f4c33980e5bb54bbe7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="787871951412550519b0222aba3c9df4cea49875">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_2de2d7e4c07c84edb34f11233aafdc295bfe2c67\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\internal_impl-24.1.1_02658550b13e1d5d2be0e690969d1dd1697c5aea.jar" />
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_7af7ab58b2c2ae0d95f410f37e2f96a4b45c10a4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a6482940a7d9ccf6b762b4ed7feb713c2faf5329">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f7f41d55f9b777d0f8cb60ace91b08492731cab4\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.1.1_7a9820cddeb5157dc33b3cd58d9088bc4a95ec18.jar" />
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_df1f3f0de756aeade0b89639f837232e15c77ee3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_02658550b13e1d5d2be0e690969d1dd1697c5aea\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.5_15d8db2877e29eb81dd9f161904ce13e7b99824c.jar" />
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_2b1e942579a1212af3f99ce8c50835846c3d239d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.12.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_7a9820cddeb5157dc33b3cd58d9088bc4a95ec18\classes.dex" />
+        revision="24.0.2"
+        sha1="145da27a459a63ea0c4e318930365cf0a8b8e891">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-0.12.0_b5a15b310cbb1329d3fd3fdaae334d6195f9dc27\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -110,94 +317,49 @@
         <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_15d8db2877e29eb81dd9f161904ce13e7b99824c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="787871951412550519b0222aba3c9df4cea49875">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-24.1.1_2de2d7e4c07c84edb34f11233aafdc295bfe2c67.jar" />
+        revision="24.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_2150eff3a21ea818bedcfa34f1e6b77bb1c6d0ad\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.12.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\support-annotations-24.1.1_094d634603cfbcbfa7291b5e459ff765ff06345b.jar" />
+        revision="24.0.2"
+        sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-drawee-0.12.0_7ca5640782a37144c5e7d98d6d91a2b07f04ab36\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.1.1_f71197e9a232200ef597c1ca38f925a01d51b889.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.1.1_97fcb7a2863160a4b7606c9df5c49c5c3c70879d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.1.1_61dd3a9a55b706cf32fe663463a73c223bc2c555.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\pre-dexed\release\com.android.support-design-24.1.1_c12dfefe1e7da8721013a496e26176a503991bd5.jar" />
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_7203a00011ef6df07f838226b3e80f0f1fc02129\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Android\Project\OneProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0ff7a112e4d047546bc9e8ef0b4de493656ce017">
+        revision="24.0.2"
+        sha1="e39512d70e2b39fcec92f3d6e2a29a487367396c">
         <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c1331ba5a74df087a0d5cfa8e1edd85ce08c9f8e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jar="C:\Users\91981\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_094d634603cfbcbfa7291b5e459ff765ff06345b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_97fcb7a2863160a4b7606c9df5c49c5c3c70879d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\Project\OneProject\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
-        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_c12dfefe1e7da8721013a496e26176a503991bd5\classes.dex" />
+        revision="24.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Android\Project\OneProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_3cb9ea6a083338c295e16546588aafb85c49dd37\classes.dex" />
     </item>
 
 </items>
