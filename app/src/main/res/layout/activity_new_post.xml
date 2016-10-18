@@ -45,16 +45,8 @@
             android:background="#0aecec"
             android:textColor="@android:color/white"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <GridView
-            android:id="@+id/post_photos_grid_view"
-            android:numColumns="3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </GridView>
-
-
+            android:layout_height="wrap_content"
+            />
 
         <Button
             android:layout_marginTop="2dp"

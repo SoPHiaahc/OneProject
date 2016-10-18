@@ -5,8 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
+
+import cn.finalteam.rxgalleryfinal.RxGalleryFinal;
+import cn.finalteam.rxgalleryfinal.imageloader.ImageLoaderType;
+import cn.finalteam.rxgalleryfinal.rxbus.RxBusResultSubscriber;
+import cn.finalteam.rxgalleryfinal.rxbus.event.ImageMultipleResultEvent;
 
 public class PushPostActivity extends AppCompatActivity {
 
@@ -40,6 +47,25 @@ public class PushPostActivity extends AppCompatActivity {
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
                 // Another interface callback
+            }
+        });
+        Button addPhotoButton= (Button) findViewById(R.id.add_photo_button);
+        addPhotoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RxGalleryFinal
+                        .with(PushPostActivity.this)
+                        .image()
+                        .multiple()
+                        .maxSize(9)
+                        .imageLoader(ImageLoaderType.GLIDE)
+                        .subscribe(new RxBusResultSubscriber<ImageMultipleResultEvent>() {
+                            @Override
+                            protected void onEvent(ImageMultipleResultEvent imageMultipleResultEvent) throws Exception {
+                                Toast.makeText(getBaseContext(), "已选择" + imageMultipleResultEvent.getResult().size() +"张图片", Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .openGallery();
             }
         });
     }

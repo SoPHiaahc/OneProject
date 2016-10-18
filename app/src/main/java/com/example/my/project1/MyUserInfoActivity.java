@@ -14,6 +14,12 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
+import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+
 import java.util.ArrayList;
 
 import cn.finalteam.rxgalleryfinal.RxGalleryFinal;
@@ -122,6 +128,10 @@ public class MyUserInfoActivity extends AppCompatActivity {
         tv_region.setText(preferences.getString("region1",null));
         tv_sign.setText(preferences.getString("sign1",null));
 
+
+        initImageLoader();
+        initFresco();
+
         re_avatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -169,6 +179,20 @@ public class MyUserInfoActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void initImageLoader() {
+        ImageLoaderConfiguration.Builder config = new ImageLoaderConfiguration.Builder(this);
+        config.threadPriority(Thread.NORM_PRIORITY - 2);
+        config.denyCacheImageMultipleSizesInMemory();
+        config.diskCacheFileNameGenerator(new Md5FileNameGenerator());
+        config.diskCacheSize(50 * 1024 * 1024); // 50 MiB
+        config.tasksProcessingOrder(QueueProcessingType.LIFO);
+        ImageLoader.getInstance().init(config.build());
+    }
+
+    private void initFresco() {
+        Fresco.initialize(this);
     }
 
 
